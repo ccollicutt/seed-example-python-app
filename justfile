@@ -8,4 +8,4 @@ test:
     cd app && python -m unittest discover -s tests
 
 push:
-    git add . && git commit -m "update" && git push origin master
+    git add . && git commit -m "update" && git push origin main
